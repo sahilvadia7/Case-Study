@@ -14,6 +14,7 @@ public interface BankingService {
     void addAccount(Account account);
     void addTransaction(Transaction transaction);
     void addBeneficiary(Beneficiary beneficiary);
+    
 
     Customer findCustomerById(int id);
     Account findAccountById(int id);

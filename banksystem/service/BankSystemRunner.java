@@ -11,16 +11,22 @@ import transaction.Transaction;
 import java.time.LocalDateTime;
 
 
+enum Grp{
+    GROUP_01,
+}
+
 public class BankSystemRunner {
 
         static int opt;
         static Scanner input = new Scanner(System.in);
         static BankModel sbi = new BankModel();
         static BankSystemRunner BSR = new BankSystemRunner();
+        
 
 
     public static void main(String[] args) {
         do{
+            System.out.println("\n\t"+Grp.GROUP_01);
             System.out.println("\nBanking System\n");
             System.out.println("1. Add Customers");
             System.out.println("2. Add Accounts");
@@ -53,6 +59,7 @@ public class BankSystemRunner {
         
 
             switch (opt) {
+
                 case 1:
                     BSR.addCustomer();
                     break;
@@ -85,16 +92,16 @@ public class BankSystemRunner {
                     BSR.ListAll_Beneficiariesofspecific_Customer();
                     break;
                 case 0: 
-                    System.exit(0);
                     System.out.println("Thank You ;)");
+                    System.exit(0);
                     break;
 
                 // default:
-                    
+                   
                 //     break;
             }
 
-        }while(opt!=0);
+        }while(opt!=0 );
 
 
         input.close();
