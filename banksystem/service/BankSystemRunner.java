@@ -25,6 +25,7 @@ public class BankSystemRunner {
 
 
     public static void main(String[] args) {
+        //bank menu
         do{
             System.out.println("\n\t"+Grp.GROUP_01);
             System.out.println("\nBanking System\n");
