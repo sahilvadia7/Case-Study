@@ -3,7 +3,7 @@
 <body>
     <table>
         <thead>
-        <tr><th colspan="2">Bank Application Data (IMCA ~ Group 1)</th></tr>
+        <tr><th colspan="2">Bank Application (IMCA ~ Group 1)</th></tr>
         </thead>
         <tbody>
             <tr>
