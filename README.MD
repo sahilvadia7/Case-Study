@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title></title>
-</head>
 <body>
     <table>
         <thead>
-        <tr>
-        <th>Bank Application Data<</th>
-        </tr>
+        <tr><th colspan="2">Bank Application Data (IMCA ~ Group 1)</th></tr>
+        </thead>
+        <tbody>
             <tr>
                 <th>Name</th>
                 <th>UID</th>
@@ -22,20 +19,18 @@
             <td>T050701027</td>
             </tr>
             <tr>
-            <td>Tanvi Dilipbhai Gohel</td>
-            <td>T050701040</td>
-            </tr>
-            <tr>
             <td>Shubham Mahendrabhai Gadhiya</td>
             <td>T050701035</td>
+            </tr>
+            <tr>
+            <td>Tanvi Dilipbhai Gohel</td>
+            <td>T050701040</td>
             </tr>
             <tr>
             <td>Vishal Amitkumar Desai
             </td>
             <td>T050701052</td>
             </tr>
-        </thead>
-        <tbody>
             </tbody>
     </table>
 </body>
