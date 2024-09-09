@@ -11,7 +11,7 @@
                 <th>UID</th>
             </tr>
             <tr>
-            <td>Sahil SamirBhai Vadia</td>
+            <td>Sahil Samirbhai Vadia</td>
             <td>T050701026</td>
             </tr>
             <tr>
